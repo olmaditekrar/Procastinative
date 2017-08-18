@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		3B772B1B1E6076AD00CC135E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B772B1A1E6076AD00CC135E /* AppDelegate.swift */; };
-		3B772B1D1E6076AD00CC135E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B772B1C1E6076AD00CC135E /* ViewController.swift */; };
 		3B772B201E6076AD00CC135E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B772B1E1E6076AD00CC135E /* Main.storyboard */; };
 		3B772B221E6076AD00CC135E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B772B211E6076AD00CC135E /* Assets.xcassets */; };
 		3B772B251E6076AD00CC135E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B772B231E6076AD00CC135E /* LaunchScreen.storyboard */; };
+		3B772B2D1E6076DC00CC135E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B772B2C1E6076DC00CC135E /* GoogleService-Info.plist */; };
+		3B772B2F1E6082BB00CC135E /* ProcastinativeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B772B2E1E6082BB00CC135E /* ProcastinativeTableViewController.swift */; };
+		3B772B311E6083F300CC135E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B772B301E6083F300CC135E /* User.swift */; };
+		3B772B361E60858000CC135E /* DoThis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B772B351E60858000CC135E /* DoThis.swift */; };
+		3B772B381E60EE3D00CC135E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B772B371E60EE3D00CC135E /* TableViewCell.swift */; };
+		6DC0931EAFE17EAAAF9571A6 /* Pods_Procastinative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EC611D6405A6021429CD51 /* Pods_Procastinative.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11802761185FB8EC3CA1A110 /* Pods-Procastinative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procastinative.release.xcconfig"; path = "Pods/Target Support Files/Pods-Procastinative/Pods-Procastinative.release.xcconfig"; sourceTree = "<group>"; };
 		3B772B171E6076AD00CC135E /* Procastinative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Procastinative.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B772B1A1E6076AD00CC135E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B772B1C1E6076AD00CC135E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B772B1F1E6076AD00CC135E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B772B211E6076AD00CC135E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B772B241E6076AD00CC135E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B772B261E6076AD00CC135E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B772B2C1E6076DC00CC135E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3B772B2E1E6082BB00CC135E /* ProcastinativeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcastinativeTableViewController.swift; sourceTree = "<group>"; };
+		3B772B301E6083F300CC135E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3B772B351E60858000CC135E /* DoThis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoThis.swift; sourceTree = "<group>"; };
+		3B772B371E60EE3D00CC135E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		53B831032D1302CCD09937CF /* Pods-Procastinative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procastinative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Procastinative/Pods-Procastinative.debug.xcconfig"; sourceTree = "<group>"; };
+		57EC611D6405A6021429CD51 /* Pods_Procastinative.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Procastinative.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC0931EAFE17EAAAF9571A6 /* Pods_Procastinative.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				3B772B191E6076AD00CC135E /* Procastinative */,
 				3B772B181E6076AD00CC135E /* Products */,
+				58B04079ACC045A44AC86E9D /* Pods */,
+				CE5153267EFEDA30FA58B7F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,43 @@
 		3B772B191E6076AD00CC135E /* Procastinative */ = {
 			isa = PBXGroup;
 			children = (
+				3B772B321E60851100CC135E /* Models */,
+				3B772B2C1E6076DC00CC135E /* GoogleService-Info.plist */,
 				3B772B1A1E6076AD00CC135E /* AppDelegate.swift */,
-				3B772B1C1E6076AD00CC135E /* ViewController.swift */,
 				3B772B1E1E6076AD00CC135E /* Main.storyboard */,
+				3B772B2E1E6082BB00CC135E /* ProcastinativeTableViewController.swift */,
 				3B772B211E6076AD00CC135E /* Assets.xcassets */,
 				3B772B231E6076AD00CC135E /* LaunchScreen.storyboard */,
 				3B772B261E6076AD00CC135E /* Info.plist */,
 			);
 			path = Procastinative;
+			sourceTree = "<group>";
+		};
+		3B772B321E60851100CC135E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B772B301E6083F300CC135E /* User.swift */,
+				3B772B351E60858000CC135E /* DoThis.swift */,
+				3B772B371E60EE3D00CC135E /* TableViewCell.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		58B04079ACC045A44AC86E9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53B831032D1302CCD09937CF /* Pods-Procastinative.debug.xcconfig */,
+				11802761185FB8EC3CA1A110 /* Pods-Procastinative.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE5153267EFEDA30FA58B7F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57EC611D6405A6021429CD51 /* Pods_Procastinative.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B772B291E6076AD00CC135E /* Build configuration list for PBXNativeTarget "Procastinative" */;
 			buildPhases = (
+				F34276290D30033A66B7697C /* [CP] Check Pods Manifest.lock */,
 				3B772B131E6076AD00CC135E /* Sources */,
 				3B772B141E6076AD00CC135E /* Frameworks */,
 				3B772B151E6076AD00CC135E /* Resources */,
+				F1069E19F6AFEF58C165B938 /* [CP] Embed Pods Frameworks */,
+				C29774F90B7B69E3E28D0A01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B772B251E6076AD00CC135E /* LaunchScreen.storyboard in Resources */,
+				3B772B2D1E6076DC00CC135E /* GoogleService-Info.plist in Resources */,
 				3B772B221E6076AD00CC135E /* Assets.xcassets in Resources */,
 				3B772B201E6076AD00CC135E /* Main.storyboard in Resources */,
 			);
@@ -132,12 +180,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C29774F90B7B69E3E28D0A01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Procastinative/Pods-Procastinative-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1069E19F6AFEF58C165B938 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Procastinative/Pods-Procastinative-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F34276290D30033A66B7697C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B772B131E6076AD00CC135E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B772B1D1E6076AD00CC135E /* ViewController.swift in Sources */,
+				3B772B381E60EE3D00CC135E /* TableViewCell.swift in Sources */,
+				3B772B311E6083F300CC135E /* User.swift in Sources */,
+				3B772B361E60858000CC135E /* DoThis.swift in Sources */,
+				3B772B2F1E6082BB00CC135E /* ProcastinativeTableViewController.swift in Sources */,
 				3B772B1B1E6076AD00CC135E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +356,7 @@
 		};
 		3B772B2A1E6076AD00CC135E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B831032D1302CCD09937CF /* Pods-Procastinative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SJYB86L23S;
@@ -270,6 +370,7 @@
 		};
 		3B772B2B1E6076AD00CC135E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11802761185FB8EC3CA1A110 /* Pods-Procastinative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SJYB86L23S;
@@ -300,6 +401,7 @@
 				3B772B2B1E6076AD00CC135E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
